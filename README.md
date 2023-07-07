@@ -25,7 +25,7 @@ SO THAT I don't have to pay a graphic designer
 ## Technology
 * [![Node.js](https://img.shields.io/badge/Node.js-v20.4.0-blue?logo=node.js)](https://nodejs.org/en)
 
-* [![npm](https://img.shields.io/badge/NPM-v9.8.0-blue?logo=npm)](https://www.npmjs.com/)
+* [![npm](https://img.shields.io/badge/npm-v9.8.0-blue?logo=npm)](https://www.npmjs.com/)
     * [![Inquirer Package](https://img.shields.io/badge/Inquirer-8.2.5-green?logo=npm)](https://www.npmjs.com/package/inquirer)
     * [![Jest Package](https://img.shields.io/badge/Jest-29.6.1-green?logo=npm)](https://www.npmjs.com/package/jest)
     * [![Mock-fs Package](https://img.shields.io/badge/Mock--fs-5.2.0-green?logo=npm)](https://www.npmjs.com/package/mock-fs)
@@ -33,20 +33,21 @@ SO THAT I don't have to pay a graphic designer
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Installation
-> **Important**: If you do not have a `package.json` in your directory, enter command below to initiate:
+* Packages to support this application can be installed by using [*npm install*](https://docs.npmjs.com/cli/v9/commands/npm-install) commands.
+> **Important**: If you do not have a `package.json` in your directory already, enter command below to [initiate](https://docs.npmjs.com/cli/v9/commands/npm-init):
 >```bash
->npm init-y
+>npm init -y
 >```
 
-* Packages to support this application can be installed by using *npm* commands:
 >```bash
->npm install inquirer jest mock-fs
+>npm i inquirer@8.2.5 jest@29.6.1 mock-fs@5.2.0
 >```
+> **Note**: Make sure to @ the exact versions as shown above.
 
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Usage
-* This Node.js application can be invoked by using the following command:
+* This application can be invoked by using the following command:
 ```bash
 node index.js
 ```
@@ -62,16 +63,16 @@ THEN I am presented with a list of shapes to choose from: circle, triangle, and 
 WHEN I am prompted for the shape's color
 THEN I can enter a color keyword (OR a hexadecimal number)
 WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
+THEN an SVG file is created named `{text}-{shape}-logo.svg`
+AND the output text "Generated {text}-{shape}-logo.svg" is printed in the command line
+WHEN I open the `{text}-{shape}-logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Tests
-> **Important**: You must have ***Jest***, ***Mock-fs*** and ***Inquirer*** packages installed before running any tests. See [Installation](#installation).
+> **Reminder**: You must have ***Jest***, ***Mock-fs*** and ***Inquirer*** packages installed before running any tests. See [Installation](#installation).
 
 * Each shape class could be tested for a `render()` method that returns a string for the corresponding SVG file with the given shape color.
 * To run a specific test *e.g.* `shapes.test.js` from the `/test` folder, use the command below:
