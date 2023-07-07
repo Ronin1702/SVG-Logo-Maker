@@ -6,7 +6,10 @@ describe('fileHandler', () => {
   describe('writeToFile', () => {
     beforeEach(() => {
       // Mock the file system
-      mockFs();
+      mockFs({
+        // Create an 'examples' directory
+        'examples': {}
+      });
     });
 
     afterEach(() => {

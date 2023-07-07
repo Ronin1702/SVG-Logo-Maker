@@ -1,10 +1,10 @@
-const { promptUser } = require('../lib/inputHandler');
+const { questions } = require('../lib/inputHandler');
 const inquirer = require('inquirer');
 
 jest.mock('inquirer');
 
 describe('inputHandler', () => {
-  describe('promptUser', () => {
+  describe('questions', () => {
     it('should ask for the correct input and return the correct values', async () => {
       // Mock the inquirer responses
       inquirer.prompt.mockResolvedValue({
@@ -14,7 +14,7 @@ describe('inputHandler', () => {
         shapeColor: '#000000'
       });
 
-      const response = await promptUser();
+      const response = await questions();
 
       expect(response).toEqual({
         text: 'AB',
