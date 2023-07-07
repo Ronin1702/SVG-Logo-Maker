@@ -5,9 +5,9 @@ const mockFs = require('mock-fs');
 describe('fileHandler', () => {
   describe('writeToFile', () => {
     beforeEach(() => {
-      // Mock the file system
+      // Mock the file system NPM install mock-fs
       mockFs({
-        // Create an 'examples' directory
+        // make sure it's mocking the 'examples' directory
         'examples': {}
       });
     });

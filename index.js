@@ -25,12 +25,12 @@ questions()
     const svgContent = `
       <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
         ${shapeInstance.render()}
-        <text x="150" y="130" font-size="60" text-anchor="middle" fill="${textColor}">
+        <text x="150" y="${shapeInstance.textHeight()}" font-size="60" text-anchor="middle" fill="${textColor}">
           ${text}
         </text>
       </svg>
     `;
-//WHEN I have entered input for all the prompts, THEN an SVG file is created named `logo.svg`
+    //WHEN I have entered input for all the prompts, THEN an SVG file is created named `logo.svg`
     writeToFile(`${text}-logo.svg`, svgContent);
 
     console.log(`Generated ${text}-logo.svg in the examples folder`);
