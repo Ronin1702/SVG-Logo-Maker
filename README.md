@@ -6,7 +6,7 @@
 * [Technology](#technology)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Test](#test)
+* [Tests](#tests)
 * [SVG Resources](#svg-resources)
 * [Walkthrough Video](#walkthrough-video)
 * [Links](#links)
@@ -21,15 +21,17 @@ SO THAT I don't have to pay a graphic designer
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Technology
-* [Node.js](https://nodejs.org/)
-* [NPM](https://www.npmjs.com/)
-  * [Inquirer Package](https://www.npmjs.com/package/inquirer)
-  * [Jest Package](https://www.npmjs.com/package/jest)
-  * [Mock-fs Package](https://www.npmjs.com/package/mock-fs)
+* ![Node.js](https://img.shields.io/badge/Node.js-v20.4.0-blue?logo=node.js&link=https%3A%2F%2Fnodejs.org%2F)
+
+* ![npm](https://img.shields.io/badge/NPM-v9.8.0-blue?logo=npm&link=https%3A%2F%2Fwww.npmjs.com)
+    * ![Inquirer Package](https://img.shields.io/badge/Inquirer-9.2.7-green?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Finquirer)
+    * ![Jest Package](https://img.shields.io/badge/Jest-29.6.1-green?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fjest)
+    * ![Mock-fs Package](https://img.shields.io/badge/Mock--fs-5.2.0-green?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fmock-fs)
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Installation
-> **Important**: If you do not have a `package.json` in your directory, you can enter the command below to initiate *npm*:
+> **Important**: If you do not have a `package.json` in your directory, enter command below to initiate:
 >```bash
 >npm init-y
 >```
@@ -45,6 +47,7 @@ SO THAT I don't have to pay a graphic designer
 ```bash
 node index.js
 ```
+
 ```md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for text
@@ -63,64 +66,48 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
-## Test
+## Tests
 > **Important**: You must have ***Jest***, ***Mock-fs*** and ***Inquirer*** packages installed before running any tests. See [Installation](#installation).
 
 * Each shape class could be tested for a `render()` method that returns a string for the corresponding SVG file with the given shape color.
-* To run a specific test e.g. `shapes.test.js` from the `/test` folder while in the `main` directory, you may use the command below:
+* To run a specific test *e.g.* `shapes.test.js` from the `/test` folder, use the command below:
 ```bash
 npm run test ./test/shapes.test.js
 ```
-* To run all tests at once while in the `main` directory, you may use the command below:
+* To run all tests at once, use the command below:
 ```bash
 npx jest
 ```
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## SVG Resources
-
 * [Example SVG](https://static.fullstack-bootcamp.com/fullstack-ground/module-10/circle.svg)
-
 * [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
-
 * [SVG tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
-
 * [Basic SVG shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
-
 * [Text in SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
-
 * [SVG VS Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Walkthrough Video
-
 * A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
-  * [![Walkthrough-Video](./Images/svg-logo-maker.gif)](https://drive.google.com/file/WALKTHROUGH-VIDEO-FOR-SVG-LOGO-MAKER)
-
-* The `README.md` file must include a link to the walkthrough video.
+  <!-- * [![Walkthrough-Video](./Images/svg-logo-maker.gif)](https://drive.google.com/file/WALKTHROUGH-VIDEO-FOR-SVG-LOGO-MAKER) -->
 
 * The walkthrough video must show all tests passing from the command line.
-
 * Demonstrate how a user would invoke the application from the command line.
-
 ```bash
 node index.js
 ```
-
 * Demonstrate how a user would enter responses to all of the prompts in the application.
-
 * Demonstrate a generated SVG file, showing the file being opened in the browser. The image in the browser must reflect the choices made by the user (text, shape, and colors).
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Links
-
 You are required to submit the following for review:
-
-* A walkthrough video that demonstrates the functionality of the application and passing tests.
-
-* At least one sample SVG file generated using your application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
+* GitHub Repo: [SVG Logo Maker](https://github.com/Ronin1702/SVG-Logo-Maker)
+* Demo and Test Video Links:
+* SVG Sample: 
+  * ![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ---
