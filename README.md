@@ -86,10 +86,10 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 * Each shape class could be tested for a `render()` method that returns a string for the corresponding SVG file with the given shape color.
 
-* To run a specific test *e.g.* `shapes.test.js` from the `/test` folder, use the command below:
+* To run a specific test *e.g.* `shapes.test.js`, use the command below:
 
 ```bash
-npm run test ./test/shapes.test.js
+npm run test shapes.test.js
 ```
 
 * To run all tests at once, use the command below:
