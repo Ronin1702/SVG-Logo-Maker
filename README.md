@@ -19,6 +19,7 @@ AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
 ```
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Technology
@@ -41,6 +42,7 @@ SO THAT I don't have to pay a graphic designer
 >```bash
 >npm install inquirer jest mock-fs
 >```
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Usage
@@ -65,6 +67,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Tests
@@ -79,6 +82,7 @@ npm run test ./test/shapes.test.js
 ```bash
 npx jest
 ```
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## SVG Resources
@@ -88,6 +92,7 @@ npx jest
 * [Basic SVG shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [Text in SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
 * [SVG VS Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Walkthrough Video
@@ -101,6 +106,7 @@ node index.js
 ```
 * Demonstrate how a user would enter responses to all of the prompts in the application.
 * Demonstrate a generated SVG file, showing the file being opened in the browser. The image in the browser must reflect the choices made by the user (text, shape, and colors).
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Links
@@ -110,10 +116,12 @@ You are required to submit the following for review:
 * SVG Sample: 
 
 ![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## License
 * This application is licensed by [![GitHub](https://img.shields.io/github/license/ronin1702/SVG-Logo-Maker)](./LICENSE).
+
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ---
