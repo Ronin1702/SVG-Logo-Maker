@@ -31,7 +31,7 @@ questions()
       </svg>
     `;
     //WHEN I have entered input for all the prompts, THEN an SVG file is created named `logo.svg`
-    writeToFile(`${text}-logo.svg`, svgContent);
+    writeToFile(`${text}-${shape}-logo.svg`, svgContent);
 
-    console.log(`Generated ${text}-logo.svg in the examples folder`);
+    console.log(`Generated ${text}-${shape}-logo.svg in the examples folder`);
   });
