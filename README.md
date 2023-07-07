@@ -21,12 +21,12 @@ SO THAT I don't have to pay a graphic designer
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ## Technology
-* ![Node.js](https://img.shields.io/badge/Node.js-v20.4.0-blue?logo=node.js&link=https%3A%2F%2Fnodejs.org%2F)
+* [![Node.js](https://img.shields.io/badge/Node.js-v20.4.0-blue?logo=node.js)](https://nodejs.org/en)
 
-* ![npm](https://img.shields.io/badge/NPM-v9.8.0-blue?logo=npm&link=https%3A%2F%2Fwww.npmjs.com)
-    * ![Inquirer Package](https://img.shields.io/badge/Inquirer-9.2.7-green?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Finquirer)
-    * ![Jest Package](https://img.shields.io/badge/Jest-29.6.1-green?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fjest)
-    * ![Mock-fs Package](https://img.shields.io/badge/Mock--fs-5.2.0-green?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fmock-fs)
+* [![npm](https://img.shields.io/badge/NPM-v9.8.0-blue?logo=npm)](https://www.npmjs.com/)
+    * [![Inquirer Package](https://img.shields.io/badge/Inquirer-9.2.7-green?logo=npm)](https://www.npmjs.com/package/inquirer)
+    * [![Jest Package](https://img.shields.io/badge/Jest-29.6.1-green?logo=npm)](https://www.npmjs.com/package/jest)
+    * [![Mock-fs Package](https://img.shields.io/badge/Mock--fs-5.2.0-green?logo=npm)](https://www.npmjs.com/package/mock-fs)
 
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
