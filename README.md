@@ -25,7 +25,7 @@ SO THAT I don't have to pay a graphic designer
 ## Technology
 * [![Node.js](https://img.shields.io/badge/Node.js-v20.4.0-blue?logo=node.js)](https://nodejs.org/en)
 
-* [![npm](https://img.shields.io/badge/npm-v9.8.0-blue?logo=npm)](https://www.npmjs.com/)
+* [![npm](https://img.shields.io/badge/npm-v9.7.2-blue?logo=npm)](https://docs.npmjs.com/cli/v9/)
     * [![Inquirer Package](https://img.shields.io/badge/Inquirer-8.2.5-green?logo=npm)](https://www.npmjs.com/package/inquirer)
     * [![Jest Package](https://img.shields.io/badge/Jest-29.6.1-green?logo=npm)](https://www.npmjs.com/package/jest)
     * [![Mock-fs Package](https://img.shields.io/badge/Mock--fs-5.2.0-green?logo=npm)](https://www.npmjs.com/package/mock-fs)
@@ -34,7 +34,7 @@ SO THAT I don't have to pay a graphic designer
 
 ## Installation
 * Packages to support this application can be installed by using [*npm install*](https://docs.npmjs.com/cli/v9/commands/npm-install) commands.
-> **Important**: If you do not have a `package.json` in your directory already, enter command below to [initiate](https://docs.npmjs.com/cli/v9/commands/npm-init):
+> **Important**: If you do not have a `package.json` in your directory already, enter command below to [*initiate*](https://docs.npmjs.com/cli/v9/commands/npm-init):
 >```bash
 >npm init -y
 >```
