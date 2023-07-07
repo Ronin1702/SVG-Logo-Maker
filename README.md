@@ -39,7 +39,7 @@ SO THAT I don't have to pay a graphic designer
 
 * Packages to support this application can be installed by using [*npm install*](https://docs.npmjs.com/cli/v9/commands/npm-install) commands.
 
-> **Important**: If you do not have a `package.json` in your directory already, enter command below to [*initiate*](https://docs.npmjs.com/cli/v9/commands/npm-init).
+> **Note**: If you do not have a `package.json` in your directory already, enter command below to [*initiate*](https://docs.npmjs.com/cli/v9/commands/npm-init).
 >
 >```bash
 >npm init -y
@@ -49,7 +49,7 @@ SO THAT I don't have to pay a graphic designer
 >npm i inquirer@8.2.5 jest@29.6.1 mock-fs@5.2.0
 >```
 >
-> **Note**: Make sure to @ the exact versions as shown above.
+> **Important**: Make sure to @ the exact versions as shown above.
 
 [*back to top*](#table-of-contents)
 
@@ -82,7 +82,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Tests
 
-> **Reminder**: You must have ***Jest***, ***Mock-fs*** and ***Inquirer*** packages installed before running any tests. See [Installation](#installation).
+> **Note**: You must have ***Jest***, ***Mock-fs*** and ***Inquirer*** packages installed before running any tests. See [Installation](#installation).
 
 * Each shape class could be tested for a `render()` method that returns a string for the corresponding SVG file with the given shape color.
 
