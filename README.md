@@ -1,4 +1,4 @@
-# SVG Logo Maker [![GitHub](https://img.shields.io/github/license/ronin1702/SVG-Logo-Maker)](./LICENSE)
+# SVG Logo Maker [![GPLv3](https://img.shields.io/static/v1.svg?label=📃%20License&message=GPL%20v3.0&color=important)](./LICENSE)
 
 * This application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
 
@@ -131,7 +131,7 @@ node index.js
 
 ## Links
 
-You are required to submit the following for review:
+[![Tweet about this](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=🎵&color=blue&logo=twitter&style=social)](https://twitter.com/intent/tweet?text=Checkout%20this%20simple%20SVG%20Logo%20Maker%20by%20@Ronin1702.%20%20For%20more%20info%2C%20visit%20https://github.com/Ronin1702/SVG-Logo-Maker)
 
 * GitHub Repo: [SVG Logo Maker](https://github.com/Ronin1702/SVG-Logo-Maker)
 * Walkthrough Video Link:
@@ -143,9 +143,9 @@ You are required to submit the following for review:
 
 ## License
 
-* This application is licensed by [![GitHub](https://img.shields.io/github/license/ronin1702/SVG-Logo-Maker)](./LICENSE).
+* This application is licensed by [![GPLv3](https://img.shields.io/static/v1.svg?label=📃%20License&message=GPL%20v3.0&color=important)](./LICENSE).
 
 [*back to top*](#table-of-contents)
 
 ---
-***© 2023 Kai Chen. All Rights Reserved.***
+![Copyright](https://img.shields.io/static/v1.svg?label=SVG%20Logo%20Maker%20©️%20&message=%202023%20Kai%20Chen&labelColor=informational&color=033450)
