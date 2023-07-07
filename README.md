@@ -1,4 +1,4 @@
-# SVG Logo Maker
+# SVG Logo Maker <span style="font-size: small;">[![GitHub](https://img.shields.io/github/license/ronin1702/SVG-Logo-Maker)](./LICENSE)</span>
 * This application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
 
 ## Table of Contents
@@ -10,6 +10,7 @@
 * [SVG Resources](#svg-resources)
 * [Walkthrough Video](#walkthrough-video)
 * [Links](#links)
+* [License](#license)
 
 
 ## Description
@@ -105,9 +106,14 @@ node index.js
 ## Links
 You are required to submit the following for review:
 * GitHub Repo: [SVG Logo Maker](https://github.com/Ronin1702/SVG-Logo-Maker)
-* Demo and Test Video Links:
+* Walkthrough Video Link:
 * SVG Sample: 
-  * ![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
+
+![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
+<span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
+
+## License
+* This application is licensed by [![GitHub](https://img.shields.io/github/license/ronin1702/SVG-Logo-Maker)](./LICENSE).
 <span style="float: right; font-size: small;">[*back to top*](#table-of-contents)</span>
 
 ---
