@@ -1,6 +1,6 @@
 const { questions } = require('../lib/inputHandler');
 const inquirer = require('inquirer');
-
+//tell jest test to mock inquirer
 jest.mock('inquirer');
 
 describe('inputHandler', () => {

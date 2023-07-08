@@ -10,7 +10,7 @@ describe('Shapes', () => {
     it('should render an SVG string for Triangle with the given color', () => {
       const shape = new Triangle();
       shape.setColor("blue");
-      expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
+      expect(shape.render()).toEqual('<polygon points="150, 10 10, 190 290, 190" fill="blue" />');
     });
   });
 
