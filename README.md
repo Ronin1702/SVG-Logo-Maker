@@ -139,9 +139,9 @@ node index.js
 * Walkthrough Video Link:
 * SVG Sample:
 
-![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
-![Grey OSU Text in maroon triangle shape](./examples/MSU-Triangle-logo.svg)
-![Grey OSU Text in maroon square shape](./examples/LSU-Square-logo.svg)
+![Grey OSU Text in Scarlet Circle Shape](./examples/OSU-Circle-logo.svg)
+![White MSU Text in Green Triangle Shape](./examples/MSU-Triangle-logo.svg)
+![Gold OSU Text in Purple Square Shape](./examples/LSU-Square-logo.svg)
 
 [*back to top*](#table-of-contents)
 
