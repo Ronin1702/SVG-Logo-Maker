@@ -116,18 +116,8 @@ npx jest
 ## Walkthrough Video
 
 * A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
-  <!-- * [![Walkthrough-Video](./Images/svg-logo-maker.gif)](https://drive.google.com/file/WALKTHROUGH-VIDEO-FOR-SVG-LOGO-MAKER) -->
 
-* The walkthrough video must show all tests passing from the command line.
-
-* Demonstrate how a user would invoke the application from the command line.
-
-```bash
-node index.js
-```
-
-* Demonstrate how a user would enter responses to all of the prompts in the application.
-* Demonstrate a generated SVG file, showing the file being opened in the browser. The image in the browser must reflect the choices made by the user (text, shape, and colors).
+[![Walkthrough-Video](./media/SVG-Logo-Maker.gif)](./media/SVG%20Logo%20Maker.mp4)
 
 [*back to top*](#table-of-contents)
 
@@ -136,8 +126,8 @@ node index.js
 [![Tweet about this](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=🎵&color=blue&logo=twitter&style=social)](https://rb.gy/kh9be)
 
 * GitHub Repo: [SVG Logo Maker](https://github.com/Ronin1702/SVG-Logo-Maker)
-* Walkthrough Video Link:
-* SVG Sample:
+* Click 👉 [HERE](./media/SVG%20Logo%20Maker.mp4) to review *Walkthrough Video*
+* SVG Samples:
 
 ![Grey OSU Text in Scarlet Circle Shape](./examples/OSU-Circle-logo.svg)
 ![White MSU Text in Green Triangle Shape](./examples/MSU-Triangle-logo.svg)
