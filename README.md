@@ -117,7 +117,7 @@ npx jest
 
 * A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
 
-[![Walkthrough-Video](./media/SVG-Logo-Maker.gif)](./media/SVG%20Logo%20Maker.mp4)
+[![Walkthrough-Video](./media/SVG-Logo-Maker.gif)](https://github.com/Ronin1702/SVG-Logo-Maker/assets/131393836/d771b078-ba0a-4db9-a52a-3d4adb60e60f)
 
 [*back to top*](#table-of-contents)
 
@@ -126,7 +126,7 @@ npx jest
 [![Tweet about this](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=🎵&color=blue&logo=twitter&style=social)](https://rb.gy/kh9be)
 
 * GitHub Repo: [SVG Logo Maker](https://github.com/Ronin1702/SVG-Logo-Maker)
-* Click 👉 [HERE](./media/SVG%20Logo%20Maker.mp4) to review *Walkthrough Video*
+* Click 👉 [HERE](https://github.com/Ronin1702/SVG-Logo-Maker/assets/131393836/d771b078-ba0a-4db9-a52a-3d4adb60e60f) to review *Walkthrough Video*
 * SVG Samples:
 
 ![Grey OSU Text in Scarlet Circle Shape](./examples/OSU-Circle-logo.svg)
