@@ -133,7 +133,7 @@ node index.js
 
 ## Links
 
-[![Tweet about this](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=🎵&color=blue&logo=twitter&style=social)](https://twitter.com/intent/tweet?text=Checkout%20this%20simple%20SVG%20Logo%20Maker%20by%20@Ronin1702.%20%20For%20more%20info%2C%20visit%20https://github.com/Ronin1702/SVG-Logo-Maker)
+[![Tweet about this](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=🎵&color=blue&logo=twitter&style=social)](https://rb.gy/kh9be)
 
 * GitHub Repo: [SVG Logo Maker](https://github.com/Ronin1702/SVG-Logo-Maker)
 * Walkthrough Video Link:
