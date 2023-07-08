@@ -49,7 +49,7 @@ SO THAT I don't have to pay a graphic designer
 >npm i inquirer@8.2.5 jest@29.6.1 mock-fs@5.2.0
 >```
 >
-> **Important**: Make sure to @ the exact versions as shown above.
+> **Important**: Make sure to @ the **EXACT** versions as shown above.
 
 [*back to top*](#table-of-contents)
 
@@ -60,6 +60,8 @@ SO THAT I don't have to pay a graphic designer
 ```bash
 node index.js
 ```
+
+* Workflow:
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -138,6 +140,8 @@ node index.js
 * SVG Sample:
 
 ![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
+![Grey OSU Text in maroon triangle shape](./examples/OSU-triangle-logo.svg)
+![Grey OSU Text in maroon square shape](./examples/OSU-square-logo.svg)
 
 [*back to top*](#table-of-contents)
 
