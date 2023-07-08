@@ -140,8 +140,8 @@ node index.js
 * SVG Sample:
 
 ![Grey OSU Text in maroon circle shape](./examples/OSU-Circle-logo.svg)
-![Grey OSU Text in maroon triangle shape](./examples/OSU-triangle-logo.svg)
-![Grey OSU Text in maroon square shape](./examples/OSU-square-logo.svg)
+![Grey OSU Text in maroon triangle shape](./examples/OSU-Triangle-logo.svg)
+![Grey OSU Text in maroon square shape](./examples/OSU-Square-logo.svg)
 
 [*back to top*](#table-of-contents)
 
