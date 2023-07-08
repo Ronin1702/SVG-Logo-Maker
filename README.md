@@ -141,7 +141,7 @@ node index.js
 
 ![Grey OSU Text in Scarlet Circle Shape](./examples/OSU-Circle-logo.svg)
 ![White MSU Text in Green Triangle Shape](./examples/MSU-Triangle-logo.svg)
-![Gold OSU Text in Purple Square Shape](./examples/LSU-Square-logo.svg)
+![Gold LSU Text in Purple Square Shape](./examples/LSU-Square-logo.svg)
 
 [*back to top*](#table-of-contents)
 
