@@ -4,7 +4,7 @@ const { Triangle, Circle, Square } = require('../lib/shapes.js');
 // Starting the test suite for the Shape classes.
 describe('Shapes', () => {
   // Each shape is tested in its own nested suite.
-  
+
   // Testing the Triangle class.
   describe('Triangle', () => {
     it('should render an SVG string for Triangle with the given color', () => {
